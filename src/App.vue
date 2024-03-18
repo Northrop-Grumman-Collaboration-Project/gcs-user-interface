@@ -4,12 +4,15 @@
 import Greet from "./components/Greet.vue";
 import Navbar from "./components/Navbar.vue";
 import Camera from "./components/Camera.vue";
+import Battery from "./components/Battery.vue";
 import { RouterView } from "vue-router";
+import EmergencyStop from "./components/EmergencyStop.vue";
 </script>
 
 <template>
   <div>
     <Navbar/>
+    <EmergencyStop/>
   </div>
   <RouterView/>
   <!-- <div class="container">
